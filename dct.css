@@ -55,12 +55,16 @@
         padding-top: 50px;
         max-width: 991px;  
 	    margin: 0 auto;}
-    
-    #archives{
-    	display: flex;
+       
+	#hero-unit{order:1;}
+        #nd-nav{order:2;}
+        #archives{order:3;}
+
+       #archives{
+    	        display: inline-flex;
 		padding-top: 50px;
 		max-width: 991px;
-	    margin: 0 auto;}
+	        margin: 0 auto;}
 
 	.arti-with-pic{
 		display: inline-block;
